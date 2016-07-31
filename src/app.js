@@ -27,7 +27,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Contact List</h1>
-        <ContactsList />
+        <ContactsList contacts={this.props.contacts} />
       </div>
     )
   }
